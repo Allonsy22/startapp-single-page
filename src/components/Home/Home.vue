@@ -1,5 +1,5 @@
 <template>
-    <header class="header">
+    <div class="header">
         <div class="title-block">
             <p>What are you waiting for?</p>
             <h1>Let's be creative!</h1>
@@ -8,16 +8,16 @@
                 <p><span class="start">Start</span> Doing that</p>
                 <span class="double-line"></span>
             </div>
-            <div class="icon">
-                <i class="fas fa-chevron-down fa-2x"></i>
+            <div class="down">
+                <a href="#logo"><i class="fas fa-chevron-down fa-2x"></i></a>
             </div>
         </div>
-    </header>
+    </div>
 </template>
 
 <script>
 export default {
-    name: 'Header',
+    name: 'Home',
 }
 </script>
 
@@ -71,7 +71,7 @@ export default {
     color: #00A99D;
 }
 
-.icon {
+.down {
     display: flex;
     align-items: center;
     justify-content: center;
