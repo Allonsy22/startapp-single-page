@@ -76,6 +76,8 @@ export default {
 
 .title {
     margin: 0 50px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .offer {
@@ -94,5 +96,20 @@ export default {
     display: flex;
     flex-direction: row;
     margin: 50px 0 100px 0;
+}
+
+@media screen and (max-width: 1860px) {
+    .line {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .line {
+        width: 50px;
+    }
+    .cards {
+        flex-direction: column;
+    }
 }
 </style>

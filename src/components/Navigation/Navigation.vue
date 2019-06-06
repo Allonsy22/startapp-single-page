@@ -32,11 +32,12 @@ export default {
 
 <style scoped>
 .container {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 650px;
+    height: auto;
 }
 .top {
     display: flex;
@@ -44,14 +45,13 @@ export default {
     align-items: center;
     justify-content: space-between;
     width: 60%;
-    height: 100px;
+    height: auto;
 }
 
 .logo {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-right: 15%;
     color: #A0A0A0;
 }
 .logo img {
@@ -60,6 +60,8 @@ export default {
 }
 
 .top-line {
+    position: absolute;
+    top: 70px;
     display: block;
     width: 100%;
     height: 2px;
@@ -69,4 +71,21 @@ export default {
     width: 60%;
     margin: 80px 0 0 0;
 }
+
+@media screen and (max-width: 1860px) {
+    .top {
+        flex-direction: column;
+        width: 100%;
+    }  
+    .top-line {
+        top: 130px;
+    } 
+}
+
+@media screen and (max-width: 850px) { 
+    .top-line {
+        top: 420px;
+    } 
+}
+
 </style>

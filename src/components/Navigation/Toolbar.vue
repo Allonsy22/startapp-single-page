@@ -11,7 +11,8 @@
             <li><input 
                 id="search" 
                 type="text" 
-                class="search"/></li>
+                class="search"
+                placeholder="search"/></li>
             <li><i 
                 class="fas fa-search fa-lg"
                 @click="activateSearch"></i></li>
@@ -26,6 +27,10 @@ export default {
         activateSearch() {
             let searchInput = document.getElementById('search');
             searchInput.classList.toggle('active-search');
+        },
+        showMenu() {
+            let toolbar = document.querySelector(".toolbar-container");
+            toolbar.classList.toggle('active-menu');
         }
     }
 }
@@ -35,7 +40,6 @@ export default {
 .toolbar {
     display: flex;
     flex-direction: row;
-    height: 40px;
 }
 .toolbar-container {
     list-style-type: none;
@@ -80,5 +84,17 @@ export default {
 
 .active-search {
     width: 150px;
+}
+
+@media screen and (max-width: 850px) {
+    .toolbar-container li {
+        display: block;
+    }
+    .search {
+        width: 150px;
+    }
+    .toolbar-container i {
+        display: none;
+    }
 }
 </style>

@@ -26,6 +26,7 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 20px 0;
     text-align: center;
     color: #8A8A8A;
 }
