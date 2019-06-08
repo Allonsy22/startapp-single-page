@@ -14,6 +14,7 @@
                 :info="samples.info"
                 :likes="samples.likes"/>
         </div>
+        <button class="view-all">view all works</button>
     </div>
 </template>
 
@@ -80,6 +81,16 @@ export default {
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.view-all {
+    width: 60%;
+    height: 45px;
+    margin: 50px 0 110px 0;
+    text-transform: uppercase;
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 5px;
 }
 
 </style>

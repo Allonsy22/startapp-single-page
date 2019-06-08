@@ -4,6 +4,8 @@
     <Navigation />
     <Features />
     <SampleWorks />
+    <PurchaseBlock />
+    <TeamMember />
   </div>
 </template>
 
@@ -12,6 +14,8 @@ import Home from '@/components/Home/Home';
 import Navigation from '@/components/Navigation/Navigation';
 import Features from '@/components/Features/Features';
 import SampleWorks from '@/components/SampleWorks/SampleWorks';
+import PurchaseBlock from '@/components/Purchase/PurchaseBlock';
+import TeamMember from '@/components/TeamMember/TeamMember';
 
 export default {
   name: 'app',
@@ -20,6 +24,8 @@ export default {
     Navigation,
     Features,
     SampleWorks,
+    PurchaseBlock,
+    TeamMember,
   }
 }
 </script>
@@ -39,7 +45,7 @@ body {
 }
 
 #app {
-  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-family: "Raleway", "Arial";
 }
 
 </style>

@@ -40,7 +40,7 @@ export default {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background-color: #1CA399;
+    background-color: var(--main-color);
     cursor: pointer;
     transition: opacity .5s linear;
 }
