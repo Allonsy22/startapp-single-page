@@ -122,7 +122,7 @@ export default {
 }
 
 .key-box {
-    position: absolute;
+    position: relative;
     top: -27px;
     display: flex;
     align-items: center;
@@ -137,7 +137,6 @@ export default {
 
 .features-content-container {
     width: 60%;
-    margin: 80px 0 0 0;
     text-align: center;
     color: #5D5D5D;
 }
@@ -156,6 +155,7 @@ export default {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     width: 100%;
 }
 
@@ -215,5 +215,11 @@ export default {
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 30px 0 0 0;
+}
+
+@media screen and (max-width: 1200px){
+    .content {
+        flex-direction: column-reverse;
+    }
 }
 </style>

@@ -3,6 +3,7 @@
     <Home />
     <Navigation />
     <Features />
+    <SampleWorks />
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import Home from '@/components/Home/Home';
 import Navigation from '@/components/Navigation/Navigation';
 import Features from '@/components/Features/Features';
+import SampleWorks from '@/components/SampleWorks/SampleWorks';
 
 export default {
   name: 'app',
@@ -17,6 +19,7 @@ export default {
     Home ,
     Navigation,
     Features,
+    SampleWorks,
   }
 }
 </script>
