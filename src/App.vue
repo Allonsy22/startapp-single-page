@@ -6,6 +6,7 @@
     <SampleWorks />
     <PurchaseBlock />
     <TeamMember />
+    <Offer />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import Features from '@/components/Features/Features';
 import SampleWorks from '@/components/SampleWorks/SampleWorks';
 import PurchaseBlock from '@/components/Purchase/PurchaseBlock';
 import TeamMember from '@/components/TeamMember/TeamMember';
+import Offer from '@/components/Offer/Offer';
 
 export default {
   name: 'app',
@@ -26,6 +28,7 @@ export default {
     SampleWorks,
     PurchaseBlock,
     TeamMember,
+    Offer,
   }
 }
 </script>

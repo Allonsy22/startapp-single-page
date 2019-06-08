@@ -62,20 +62,21 @@ export default {
 .container {
     width: 100%;
     height: auto;
+    text-align: center;
 }
 
 .offer-block {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    width: 100%;
     font-size: 18px;
     text-transform: uppercase;
     font-weight: bold;
 }
 
 .title {
-    margin: 0 50px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -85,7 +86,7 @@ export default {
 }
 
 .line {
-    width: 400px;
+    width: 35%;
     height: 5px;
     border: none;
     border-top: 1px solid #000000;
@@ -98,16 +99,7 @@ export default {
     margin: 50px 0 100px 0;
 }
 
-@media screen and (max-width: 1860px) {
-    .line {
-        width: 200px;
-    }
-}
-
 @media screen and (max-width: 850px) {
-    .line {
-        width: 50px;
-    }
     .cards {
         flex-direction: column;
     }
