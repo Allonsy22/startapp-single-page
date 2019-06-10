@@ -4,7 +4,8 @@
             <div class="logo">
                 <img 
                 src="@/assets/logo1.png" 
-                id="logo"/>
+                id="logo"
+                alt="logo"/>
                 <h2>startapp</h2>
             </div>
             <Toolbar />

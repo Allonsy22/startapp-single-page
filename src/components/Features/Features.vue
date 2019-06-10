@@ -25,7 +25,7 @@
                         </div>
                     </div>
                     <div class="right-content">
-                        <img src="@/assets/tablets.png" />
+                        <img src="@/assets/tablets.png" alt="tablets"/>
                     </div>
                 </div>
             </div>

@@ -9,7 +9,7 @@
                 <span class="double-line"></span>
             </div>
             <div class="down">
-                <a href="#logo"><i class="fas fa-chevron-down fa-2x"></i></a>
+                <a href="#logo" aria-label="Navigation"><i class="fas fa-chevron-down fa-2x"></i></a>
             </div>
         </div>
     </div>

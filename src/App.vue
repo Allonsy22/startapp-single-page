@@ -7,6 +7,7 @@
     <PurchaseBlock />
     <TeamMember />
     <Offer />
+    <Footer />
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import SampleWorks from '@/components/SampleWorks/SampleWorks';
 import PurchaseBlock from '@/components/Purchase/PurchaseBlock';
 import TeamMember from '@/components/TeamMember/TeamMember';
 import Offer from '@/components/Offer/Offer';
+import Footer from '@/components/Footer/Footer';
 
 export default {
   name: 'app',
@@ -29,6 +31,7 @@ export default {
     PurchaseBlock,
     TeamMember,
     Offer,
+    Footer,
   }
 }
 </script>
